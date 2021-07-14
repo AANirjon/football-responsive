@@ -21,13 +21,61 @@ body{
 }
 
 /*----------------------
-    Header Part
+    Header Section
 ----------------------*/
+
+/* Navigation Part */
+nav{
+    background-color: #2D25A0;
+    margin-top: -16px;
+    padding: 50px 0 0 52px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+nav > ul{
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: .2s;
+}
+nav ul li:hover{
+    background-color: gray;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: whitesmoke;
+    transition: .2s;
+    
+}
+nav ul li a:hover{
+    color: greenyellow;
+}
+
+.login{
+    color: whitesmoke;
+    background-color:#E02C6D ;
+    text-decoration: none;
+    margin: 15px 158px 20px 219px;
+    padding: 4px 0 0 8px;
+}
+.bars{
+    display: none;
+}
+
+/* Article Part */
 
 .top-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #2D25A0;
+    margin-top: -16px;
 }
 .header-title{
     color: white;
@@ -50,8 +98,8 @@ body{
 .live:hover{
     color: black; 
     background-color: tomato;
-    border-radius: 8px;
-    border: 1px solid #E02C6D;;
+    border-radius: 10px;
+    border: 1px solid #E02C6D;
 }
 
 .banner img{
@@ -129,6 +177,39 @@ body{
    
 }
 
+
+/*--------------------
+    All Matches
+---------------------*/
+
+.matches{
+    height: 100%;
+    width: 95%;
+    border: 1px solid lightgray;
+    margin-left: 23px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 12px;
+}
+.match{
+    height:auto ;
+    width: 315px;
+}
+.match img{
+    width: 303px;
+    height: 145px;
+}
+.match a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+    width: 260px;
+}
+.match span small{
+    color: lightslategray;
+}
+
 /*---------------------
     Footer Part
 ---------------------*/
@@ -156,8 +237,34 @@ footer a{
 
 
 /*----------------------
-    Header Part
+    Header Section
 ----------------------*/
+
+/* Navigation Part */
+
+    nav > ul {
+        display: none;
+    }
+    nav > .bars > li{
+        visibility: hidden;
+        position: absolute;
+        
+    }
+    nav > .bars:hover > li,
+    nav > .bars:active > li{
+        display: block;
+    }
+
+    .login{
+        margin: -2px 45px 11px 44px;  
+    }
+
+    .bars{
+        color: wheat;
+        display: contents;
+    }
+
+/* Article Part */
     .top-container{
         display: block;
         background-color: #2D25A0;
@@ -209,7 +316,7 @@ footer a{
     .player{
         height: 470px;
         width: 320px;
-        margin-left: 29px;
+        margin-left: 41px;
         box-shadow: 2px 2px 40px #979696;
         transition: .3s;
     }
@@ -229,7 +336,7 @@ footer a{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin-top: 27px;
-        margin-left: 10px;
+        margin-left: 23px;
     }
     .highlight{
         width: 345px;
@@ -256,6 +363,11 @@ footer a{
         width: 330px;
     }
 
+    hr{
+        margin-top: 40px;
+        margin-bottom: -9px;
+    }
+
 
 /*---------------------
     Footer Part
@@ -277,5 +389,41 @@ footer {
         color: gray;
         padding: 5px;
     }
+
+
+/*--------------------
+    All Matches
+---------------------*/
+
+.matches{
+    height: 100%;
+    width: 95%;
+    margin-left: 35px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 12px;
+    border: none;
+}
+.match{
+    height:auto ;
+    width: 315px;
+    margin-left: 15px;
+}
+.match img{
+    width: 303px;
+    height: 145px;
+}
+.match a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 260px;
+}
+.match span small{
+    color: lightslategray;
+}
+
+  
 
 }
