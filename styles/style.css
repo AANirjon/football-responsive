@@ -28,6 +28,10 @@ html{
     Header Section
 ----------------------*/
 
+header{
+    margin: 0 -14px 0 -7px;
+}
+
 /* Navigation Part */
 nav{
     background-color: #2D25A0;
@@ -233,6 +237,7 @@ nav ul li a:hover{
 
 .points-table{
 	margin: 0px 0% 30px 0%;
+    margin: 68px 0;
 }
 
 th, td {
@@ -379,8 +384,9 @@ footer a{
     
     .banner img{
         height: 300px;
-        width: 375px;
+        width: 368px;
         margin-top: 120px;
+        margin-left: 23px;
     }
    
 
