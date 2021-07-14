@@ -63,8 +63,16 @@ nav ul li a:hover{
     background-color:#E02C6D ;
     text-decoration: none;
     margin: 15px 158px 20px 219px;
-    padding: 4px 0 0 8px;
+    padding: 8px 4px 7px 7px;
+    transition: 0.2s;
 }
+.login:hover{
+    color: #000000;
+    background-color: lime;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
 .bars{
     display: none;
 }
@@ -83,7 +91,7 @@ nav ul li a:hover{
     height: 210px;
     font-size: 46px;
     font-weight: bold;
-    margin: 160px 0 0 100px;
+    margin: 147px 12px 27px 111px;
 }
 .live{
     text-decoration: none;
@@ -256,28 +264,31 @@ footer a{
     }
 
     .login{
-        margin: -2px 45px 11px 44px;  
+        margin: 1px 36px 8px 36px; 
     }
 
     .bars{
         color: wheat;
         display: contents;
+        font-size: 32px;
     }
 
 /* Article Part */
     .top-container{
         display: block;
         background-color: #2D25A0;
-        text-align:center;
         margin-top: -162px;
+
     }
     .header-title{
         color: white;
-        width: 167px;
+        width: 300px;
         height: 2px;
-        font-size: 24px;
+        font-size: 43px;
         font-weight: bold;
         padding-top: 35px;
+        margin-left: 45px;
+        margin-bottom: 100px;
     }
     .live{
         text-decoration: none;
