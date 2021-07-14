@@ -1,18 +1,23 @@
-
+/* Poppins Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
 
-
-
-/*-----------------
-    Main Styles
--------------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+/* Fjalla One Font */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+
+/*-----------------
+    Main Styles
+-------------------*/
+
+
+html{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -96,7 +101,7 @@ nav ul li a:hover{
     text-decoration: none;
     font-size: 16px;
     color: white;
-    padding: 6px 11px;
+    padding: 12px 15px;
     background-color: #E02C6D;
     transition: .2s;
     
@@ -105,7 +110,7 @@ nav ul li a:hover{
 .live:hover{
     color: black; 
     background-color: tomato;
-    border-radius: 10px;
+    border-radius: 13px;
     border: 1px solid #E02C6D;
 }
 
@@ -204,7 +209,7 @@ nav ul li a:hover{
     width: 315px;
 }
 .match img{
-    width: 303px;
+    width: 288px;
     height: 145px;
 }
 .match a{
@@ -223,6 +228,7 @@ nav ul li a:hover{
 .points-table table{
 	margin: 30px auto;
 	border-collapse: collapse;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .points-table{
@@ -359,7 +365,7 @@ footer a{
         text-decoration: none;
         font-size: 14px;
         color: white;
-        padding: 4px 6px;
+        padding:9px 10px;
         background-color: #E02C6D;
         transition: .2s;   
     }
